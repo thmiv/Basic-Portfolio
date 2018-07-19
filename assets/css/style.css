@@ -7,13 +7,11 @@ body {
 }
 header {
     background: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
     width: 100%;
-    margin-bottom: 30px;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 #name {
     background: #4aaaa5;
@@ -21,6 +19,17 @@ header {
     width: 220px;
     font: bold 20px Tahoma, sans-serif;
     color: #fff;
+    float: left;
+}
+.headContent {
+    margin: 0 auto;
+    width: 960px;
+}
+nav {
+    display: inline;
+    position: relative;
+    left: 400px;
+    top: 30px;
 }
 .content {
     position: relative;
@@ -35,12 +44,21 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
+h6 {
+    color: #777777;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 45%;
+}
 img {
     float: left;
     padding-right: 20px;
 }
 p {
     line-height: 1.5em;
+    font-size: 16px;
+    color: #777777;
 }
 footer {
     background: #666666;
@@ -54,14 +72,19 @@ footer {
 }
 #lineHead {
     padding: 2px;
-    background: #999;
+    background: lightgray;
+    width: 100%;
+    float: left;
 }
 #lineBody {
     padding: 2px;
-    background: #999;
+    background: lightgray;
     margin-bottom: 20px;
 }
 #lineFoot {
-    padding: 2px;
+    padding: 4px;
     background: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    left: 0;
 }
