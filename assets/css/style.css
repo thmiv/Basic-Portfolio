@@ -26,10 +26,9 @@ header {
     width: 960px;
 }
 nav {
-    display: inline;
     position: relative;
-    left: 400px;
     top: 30px;
+    float: right;
 }
 .content {
     position: relative;
@@ -45,19 +44,19 @@ h1 {
     color: #4aaaa5;
 }
 h6 {
-    color: #777777;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
-    position: relative;
-    left: 45%;
+    text-align: center;
 }
 img {
     float: left;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 p {
     line-height: 1.5em;
-    font-size: 16px;
+    font-size: 17px;
     color: #777777;
 }
 footer {
@@ -87,4 +86,40 @@ footer {
     width: 100%;
     position: absolute;
     left: 0;
+}
+a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 18px;
+}
+#divider {
+    font-size: 16px;
+}
+.projects {
+    background: #ffffff;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
 }
