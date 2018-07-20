@@ -35,7 +35,7 @@ nav {
     top: 100px;
     bottom: 90px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
     width: 960px;
     background-color: #ffffff;
 }
@@ -95,8 +95,20 @@ a {
 #divider {
     font-size: 16px;
 }
-.projects {
+.projectBox {
+    position: relative;
+    top: 100px;
+    bottom: 90px;
+    margin: 0 auto;
+    padding: 10px 30px 30px 30px;
+    width: 960px;
+    height: 700px;
+    background-color: #ffffff;
+}
+#projects {
     background: #ffffff;
+    padding-right: 30px;
+    padding-bottom: 40px;
 }
 input[type=text], select, textarea {
     width: 100%;
